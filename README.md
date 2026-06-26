@@ -78,17 +78,9 @@ GNN/
 |   +-- training.py   # train/eval loops (node / graph), metrics, over-smoothing diagnostics
 |   +-- plotting.py   # graph drawing, attention viz, training curves, comparisons
 +-- data/             # cached real datasets (Cora, MUTAG) - created on first use
-+-- notebooks/        # the series (built from the scripts below)
-+-- _build_notebooks*.py  # regenerate every notebook with nbformat
++-- notebooks/        # the series
 ```
 
-To regenerate the notebooks from source:
-
-```bash
-python _build_notebooks.py    # 00-03
-python _build_notebooks2.py   # 04-07
-python _build_notebooks3.py   # 08-10
-```
 
 ## The one-line prescription
 
