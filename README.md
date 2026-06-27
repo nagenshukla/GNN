@@ -9,7 +9,7 @@ the graph-shaped sequel to the sibling **GBDTs** series, and shares its core tri
 We **don't** use a messy real dataset. We *generate* graphs where **we** plant the
 signal - and we deliberately put it in different places:
 
-- in the **node features** (a plain MLP can already use this),
+- in the **node features** (a plain Multi Layer Perceptron can already use this),
 - in the **local structure** (only a model that reads edges can use this),
 - in **long-range structure** (only a deep / global model can use this).
 
