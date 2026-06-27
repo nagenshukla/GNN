@@ -1,0 +1,21 @@
+# Core
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+networkx        # graph construction + drawing in the notebooks
+
+# Deep learning + graphs
+torch>=2.2       # CPU build is plenty for the small synthetic graphs here
+torch_geometric>=2.6   # the de-facto GNN library; pure-Python core, no compiler needed
+
+# Notebook runtime
+jupyterlab
+ipywidgets
+nbformat
+nbconvert
+
+# Optional: only used by the download-guarded real-dataset cells (Cora, MUTAG, OGB).
+# The notebooks fall back to synthetic data if these / the downloads are unavailable.
+# ogb
